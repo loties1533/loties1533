@@ -1,16 +1,51 @@
-## Hi there 👋
+# 👋 Bonjour, moi c'est Alexis
 
-<!--
-**loties1533/loties1533** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Étudiant en **première année à Holberton School Bordeaux**  
+💻 Développeur **Full-Stack** | Back-end | Bases de données | APIs | Blockchain  
+📍 France  
+📧 [alexislaubert@yahoo.fr](mailto:alexislaubert@yahoo.fr)  
+🔗 [LinkedIn](https://www.linkedin.com/in/alexis-laubert)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 À propos de moi
+
+Je me forme actuellement au développement logiciel et au développement **Full-Stack** à Holberton School Bordeaux.  
+Je développe mes compétences en **C**, **Python**, **SQL**, ainsi qu’en **HTML/CSS** et **JavaScript**.  
+Je travaille sur le projet **HBNB**, qui implique la gestion et la manipulation de **bases de données**, la création d’**APIs** robustes et l’exploration de la blockchain via **Alchemy**.
+
+---
+
+## 🛠️ Compétences
+
+### Langages
+- C  
+- Python  
+- SQL  
+- JavaScript  
+- HTML / CSS  
+
+### Bases de données
+- MySQL  
+- SQLite  
+- Concepts relationnels et requêtes avancées  
+
+### APIs & Back-end
+- Création et consommation d’APIs REST  
+- Débogage et optimisation  
+- Intégration avec bases de données  
+
+### Outils & Technologies
+- Git / GitHub  
+- Linux  
+- VS Code  
+- Alchemy (Blockchain / Web3)
+
+---
+
+## 📚 En train d'apprendre
+
+- Architecture des applications web Full-Stack  
+- Optimisation et requêtes SQL avancées  
+- Développement back-end et APIs  
+- Intégration blockchain avec Alchemy
