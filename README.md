@@ -1,7 +1,7 @@
 # 👋 Bonjour, moi c'est Alexis
 
 🎓 Étudiant en **première année à Holberton School Bordeaux**
-💻 Développeur **Full-Stack** | Back-end | Bases de données | APIs | Blockchain
+ 💻 Développeur **Full-Stack** | Back-end | Bases de données | APIs | Python | C
 📍 France
 
 ---
