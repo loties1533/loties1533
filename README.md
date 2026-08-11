@@ -1,8 +1,8 @@
 # 👋 Bonjour, moi c'est Alexis
 
-🎓 Formation **DWWM (RNCP niveau 5)** à Holberton School Bordeaux  
-💻 Développeur **Full-Stack** — projet principal : **TripGenie**  
-📍 France
+💻 Développeur **Full-Stack** — projet en cours : **Experience AI**
+🚄 7 ans en environnement ferroviaire, aujourd'hui en reconversion vers le développement
+📍 Bordeaux, France
 
 ---
 
@@ -15,11 +15,11 @@
 
 ## 🚀 À propos de moi
 
-Je me forme au développement Full-Stack via le titre **DWWM (RNCP niveau 5)** à Holberton School Bordeaux.
+Développeur Full-Stack en formation, je construis des applications web complètes : du modèle de données côté serveur jusqu'à l'interface. J'aime particulièrement les projets où l'IA est **outillée** — connectée à de vraies données plutôt que laissée à inventer.
 
-Mon projet principal, **TripGenie**, est un générateur de voyages assisté par IA que j'ai développé en solo : un pipeline de génération orchestré côté serveur (recherche temps réel de vols, hôtels et restaurants, scoring déterministe, cascade de LLM avec fallback automatique), une API REST **Node.js / Express / PostgreSQL** validée avec **Zod**, un frontend **React / TypeScript** avec état géré via **Zustand** et **TanStack Query**, et une suite de plus de 300 tests automatisés en intégration continue.
+Mon fil rouge, c'est un moteur de génération de parcours personnalisés : une première version (**TripGenie**), puis une refonte plus ambitieuse en cours (**Experience AI**). En parallèle, je renforce mes fondamentaux (**C, Python, SQL, Bash**) au fil des projets.
 
-Je continue en parallèle de renforcer mes fondamentaux (**C, Python, SQL, Bash**) au fil des projets Holberton.
+Issu d'un environnement ferroviaire exigeant, j'apporte rigueur, sens des responsabilités et gestion du stress — des réflexes que je transpose directement au développement.
 
 ---
 
@@ -39,6 +39,7 @@ Je continue en parallèle de renforcer mes fondamentaux (**C, Python, SQL, Bash*
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
@@ -46,24 +47,48 @@ Je continue en parallèle de renforcer mes fondamentaux (**C, Python, SQL, Bash*
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## 📌 Projets principaux
+## 📌 Projets phares
 
-🧞 **TripGenie** — Générateur de voyages assisté par IA (projet solo, React · Node.js · PostgreSQL)  
-🔗 Repo : https://github.com/loties1533/tripgenie-app  
-🔗 Démo live : https://tripgenie-api.onrender.com  
-🔗 Landing page : https://loties1533.github.io/landind-page-TripGenie/
+### 🧭 Experience AI · *en cours de développement*
+Moteur qui transforme une **intention** en parcours personnalisé — « ne dis pas où tu veux aller, dis ce que tu veux vivre ». Refonte de TripGenie, pensée **produit d'abord** : le modèle de domaine, les invariants et les histoires utilisateur ont été verrouillés avant la première ligne de code serveur.
+- Génération **outillée** : l'IA cherche de vrais lieux (Foursquare) et événements (PredictHQ) avant de répondre — elle n'invente pas
+- **Modification chirurgicale** : remplacer un élément ne régénère pas tout le parcours, seulement ses dépendances
+- Chaque élément porte sa **justification** et son niveau de confiance (Vérifié / Estimé / Suggestion)
+- Partage au groupe par lien, réactions pour/contre, mémoire des préférences
+- Stack : **React · TypeScript · Node.js/Express · Prisma · PostgreSQL**, suite de tests **Vitest**
+🔗 https://github.com/loties1533/experience-ai
 
-🐍 Python / SQL / APIs  
-🔗 https://github.com/loties1533/holbertonschool-higher_level_programming
+### 🧞 TripGenie · générateur de voyages assisté par IA *(projet solo)*
+Première version du moteur : à partir d'une description en langage naturel, un **pipeline orchestré côté serveur** compose un pack de voyage complet (vols, hôtels, restaurants, événements, budget).
+- Recherches temps réel en parallèle + **cascade de LLM avec fallback automatique** (Claude → Gemini → OpenRouter)
+- **Scoring déterministe** de la qualité du pack, validation des entrées avec **Zod**, auth **JWT**
+- Frontend **React / TypeScript** (état géré via Zustand & TanStack Query, carte Leaflet), plus de **300 tests** automatisés
+🔗 Repo : https://github.com/loties1533/tripgenie-app
+🔗 Démo live : https://tripgenie-api.onrender.com
+🔗 Landing page : https://loties1533.github.io/landing-page-TripGenie/
 
-⚙️ Programmation bas niveau en C  
-🔗 https://github.com/loties1533/holbertonschool-low_level_programming
+### 🌊 Bordeaux SafeSim · *hackathon Holberton × Bordeaux Métropole*
+Plateforme interactive d'anticipation des crises climatiques pour la métropole bordelaise, construite à partir des données ouvertes (Open Data). **Python · Flask · Pandas · GeoPandas**.
+🔗 https://github.com/loties1533/bordeaux-safesim
 
-🐚 Scripts Linux / Bash  
-🔗 https://github.com/loties1533/holbertonschool-shell
+---
+
+## 🎓 Projets de formation (Holberton School)
+
+| Projet | Description | Techno |
+|--------|-------------|--------|
+| [HBNB (AirBnB Clone)](https://github.com/loties1533/holbertonschool-hbnb) | Application full-stack : architecture orientée objet, API REST, stockage | Python |
+| [Binary Trees](https://github.com/loties1533/holbertonschool-binary_trees) | Arbres binaires : insertion, suppression, parcours inorder/preorder/postorder | C |
+| [Simple Shell](https://github.com/loties1533/holbertonschool-simple_shell) | Interpréteur de commandes Unix : fork, exec, wait, variables d'environnement | C |
+| [Web Back-End](https://github.com/loties1533/holbertonschool-web_back_end) | ES6, promesses, Node.js, NoSQL, pagination, Python async | JS / Python |
+| [Web React](https://github.com/loties1533/holbertonschool-web_react) | Développement d'interfaces avec React | TypeScript |
+| [Higher-Level Programming](https://github.com/loties1533/holbertonschool-higher_level_programming) | Python, SQL, manipulation du DOM en JavaScript | Python / SQL |
+| [Low-Level Programming](https://github.com/loties1533/holbertonschool-low_level_programming) | Pointeurs, allocation mémoire, structures, listes chaînées | C |
+| [DevOps & Réseau](https://github.com/loties1533/holbertonschool-system_engineering-devops) | Design d'infrastructure web, scripting système | Bash |
 
 ---
 
