@@ -17,7 +17,7 @@
 
 Je me forme au développement Full-Stack via le titre **DWWM (RNCP niveau 5)** à Holberton School Bordeaux.
 
-Mon projet principal, **TripGenie**, est un générateur de voyages assisté par IA que j'ai développé en solo : un pipeline de génération orchestré côté serveur (recherche temps réel de vols, hôtels et restaurants, scoring déterministe, cascade de LLM avec fallback automatique), une API REST **Node.js / Express / PostgreSQL**, un frontend **React / TypeScript**, et une suite de plus de 300 tests automatisés en intégration continue.
+Mon projet principal, **TripGenie**, est un générateur de voyages assisté par IA que j'ai développé en solo : un pipeline de génération orchestré côté serveur (recherche temps réel de vols, hôtels et restaurants, scoring déterministe, cascade de LLM avec fallback automatique), une API REST **Node.js / Express / PostgreSQL** validée avec **Zod**, un frontend **React / TypeScript** avec état géré via **Zustand** et **TanStack Query**, et une suite de plus de 300 tests automatisés en intégration continue.
 
 Je continue en parallèle de renforcer mes fondamentaux (**C, Python, SQL, Bash**) au fil des projets Holberton.
 
@@ -28,8 +28,13 @@ Je continue en parallèle de renforcer mes fondamentaux (**C, Python, SQL, Bash*
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
